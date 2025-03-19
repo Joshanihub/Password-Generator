@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tektur", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #1C1C1C;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+}
+
+.header{
+    text-align: left;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: extra-bold;
+    line-height: 48px;
+}
+h2 span{
+    color:#4ADF86;
+    line-height: 48px;
+}
+p{
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 51px;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+    width: 191px;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 17px;
+    border: none;
+    border-radius: 6px;
+
+}
+hr{
+    width: 446px;
+    margin-bottom: 35px;
+    border: 1px solid #4B5563;
+}
+.passwords{
+    display: flex;
+    width: 470px;
+    align-items: center;
+}
+#randomPassword-One, #randomPassword-Two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 24px;
+    background:#273549;
+    border-radius: 6px;
+    color: #55F991;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: medium;
+    width: 446px;
+    height: 39px;
+}
+
+
+.passwords div {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #f4f4f4;
+}
+
+.passwords div:hover {
+    background-color: #ddd;
+}
